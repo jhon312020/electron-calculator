@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic Calulator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+  </head>
+  <body>
+        <div id ='calculator'>
+            <div class='top'>
+                <span class='clear' id='clear'>&#8592;</span>
+                <div class='screen'></div>
+            </div>
+            <div class='keys'>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span class='operator'>&divide;</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span class='operator'>x</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span class='operator'>-</span>
+                <span>0</span>
+                <span>.</span>
+                <span class='eval'>=</span>
+                <span class='operator'>+</span>
+            </div>
+        </div>
+  </body>
+  <script type='text/javascript'>
+    // You can also require other files to run in this process
+    //require('');
+    //require('./jquery.js')
+    window.$ = window.jQuery = require('./jquery.js');
+    require('./renderer.js')
+  </script>
+</html>
